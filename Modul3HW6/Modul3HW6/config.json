@@ -1,0 +1,14 @@
+{
+    "BackUpConfig": {
+        "Path": "backups",
+        "FileExtension": ".txt",
+        "NameFormat": "yyyy.MM.dd hh.mm.ss"
+    },
+    "LoggerConfig": {
+        "Path": "logs",
+        "LogFormat": "hh:mm:ss",
+        "FileNameFormat": "yyyy.MM.dd hh.mm.ss",
+        "FileExtension": ".txt",
+        "BackupInterval": 10
+    }
+}
