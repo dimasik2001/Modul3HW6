@@ -1,14 +1,16 @@
 using System;
+using System.Threading.Tasks;
+using Modul3HW6.Services;
 
 namespace Modul3HW6
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            var appstarter = new AppStarter();
+            var starter = appstarter.Starter;
+            await starter.Run();
         }
     }
 }
